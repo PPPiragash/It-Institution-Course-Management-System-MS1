@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("back_img.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.report-sections {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.report-sections button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#reportContainer {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.report {
+    margin-bottom: 20px;
+}
+
+.report h2 {
+    margin-top: 0;
+}
+
+.report table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.report table, .report th, .report td {
+    border: 1px solid #ddd;
+}
+
+.report th, .report td {
+    padding: 10px;
+    text-align: left;
+}
